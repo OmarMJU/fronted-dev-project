@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.login-container {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 50vh;
+}
+
+.from-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+}
+
+.logo {
+    display: none;
+    justify-self: center;
+    width: 150px;
+    margin-bottom: 50px;
+}
