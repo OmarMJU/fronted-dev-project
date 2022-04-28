@@ -41,7 +41,6 @@ body {
     text-align: center;
 }
 
-
 .subtitle {
     font-size: var(--md);
     color: var(--very-light-pink);
@@ -64,24 +63,24 @@ body {
 
 .input {
     background-color: var(--text-input-field);
-    border: none;
-    border-radius: 8px;
     height: 32px;
-    font-size: var(--md);
     padding: 8px;
     margin-bottom: 12px;
 }
 
 .primary-btn {
     background-color: var(--hospital-green);
-    border-radius: 8px;
-    border: none;
     color: var(--white);
     width: 100%;
     cursor: pointer;
-    font-size: var(--md);
     font-weight: bold;
     height: 50%;
+}
+
+.input, .primary-btn {
+    border-radius: 8px;
+    font-size: var(--md);
+    border: none;
 }
 
 .login-btn {
