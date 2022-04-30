@@ -39,9 +39,3 @@
 .email-message img {
     width: 80px;
 }
-
-@media (max-width: 640px) {
-    .logo {
-        display: block;
-    }
-}
