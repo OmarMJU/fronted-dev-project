@@ -3,6 +3,7 @@
     --adhara-purple-blue: #4ea8de;
     --adhara-blue-ocean: #00b4d8;
     --adhara-blue-night: #023e8a;
+    --adhara-blue-deep: #0077b6;
     --adhara-green-blue: #48bfe3;
     --adhara-blue-sky: #48cae4;
     --text-input-field: #f7f7f7;
@@ -45,6 +46,10 @@ body {
     margin-bottom: 54px;
 }
 
+.from a:hover {
+    text-decoration: underline;
+}
+
 .logo {
     display: none;
     justify-self: center;
@@ -60,7 +65,7 @@ body {
 
 .subtitle {
     font-size: var(--md);
-    color: var(--adhara-blue-ocean);
+    color: var(--adhara-blue-deep);
     font-weight: 300;
     margin-top: 0;
     margin-bottom: 32px;
@@ -93,7 +98,6 @@ body {
 }
 
 .input {
-    /* background-color: var(--text-input-field); */
     background-color: var(--text-input-field-adhara);
     height: 32px;
     padding: 8px;
@@ -117,4 +121,17 @@ body {
 .login-btn {
     margin-top: 14px;
     margin-bottom: 30px;
+}
+
+.primary-btn:hover {
+    background-color: var(--adhara-blue-deep);
+}
+
+.secondary-btn:hover {
+    background-color: var(--adhara-blue-ocean);
+    color: var(--white);
+}
+
+.primary-btn:hover, .secondary-btn:hover {
+    transition: 0.6s ease;
 }
