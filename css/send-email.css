@@ -28,6 +28,10 @@
     color: var(--adhara-blue-ocean);
 }
 
+.primary-btn {
+    height: 47px;
+}
+
 .resend {
     font-size: var(--sm);
 }
