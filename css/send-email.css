@@ -19,8 +19,13 @@
     width: 132px;
     height: 132px;
     border-radius: 50%;
-    background-color: var(--text-input-field);
+    background-color: var(--text-input-field-adhara);
     margin-bottom: 24px;
+}
+
+.email-message i {
+    font-size: 65px;
+    color: var(--adhara-blue-ocean);
 }
 
 .resend {
