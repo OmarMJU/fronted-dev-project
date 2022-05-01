@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/general-styles.css">
+    <link rel="stylesheet" href="./css/mobile-max-640-styles.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <div class="from-container">
+            <img src="./logos/logo_yard_sale.svg" alt="Yard Sale Logo" class="logo">
+
+            <!-- From of datas. -->
+            <form action="/" class="from">
+                <!-- Input email. -->
+                <label for="email" class="label">Email address</label>
+                <input type="email" name="email" id="email" class="input" placeholder="adhara.brows@example.com">
+
+                <!-- Input password. -->
+                <label for="password" class="label">Password</label>
+                <input type="password" name="password" id="password" class="input" placeholder="Password">
+
+                <!-- Button Submit. -->
+                <input type="submit" class="primary-btn login-btn" value="Log In">
+
+                <!-- Link to recover password. -->
+                <a href="/">Forgot my password</a>
+            </form>
+
+            <button class="secondary-btn">Sign Up</button>
+        </div>
+    </div>
+</body>
+</html>

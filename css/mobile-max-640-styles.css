@@ -2,4 +2,10 @@
     .logo {
         display: block;
     }
+
+    .secondary-btn {
+        position: absolute;
+        bottom: 40px;
+        width: inherit;
+    }
 }
