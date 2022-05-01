@@ -28,12 +28,17 @@
 }
 
 .resend span {
-    color: var(--very-light-pink);
+    color: var(--adhara-blue-ocean);
 }
 
 .resend a {
-    color: var(--hospital-green);
+    color: var(--adhara-blue-night);
     text-decoration: none;
+    font-weight: 50px;
+}
+
+.resend a:hover {
+    text-decoration: underline;
 }
 
 .email-message img {

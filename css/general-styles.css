@@ -1,10 +1,14 @@
 :root {
-    --very-light-pink: #c7c7c7;
+    --text-input-field-adhara: #bee8fb8e;
+    --adhara-purple-blue: #4ea8de;
+    --adhara-blue-ocean: #00b4d8;
+    --adhara-blue-night: #023e8a;
+    --adhara-green-blue: #48bfe3;
+    --adhara-blue-sky: #48cae4;
     --text-input-field: #f7f7f7;
-    --hospital-green: #acd9b2;
-    --white: #ffffff;
     --black: #000000;
     --dark: #232830;
+    --white: #ffffff;
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
@@ -34,7 +38,7 @@ body {
 }
 
 .from a {
-    color: var(--hospital-green);
+    color: var(--adhara-blue-ocean);
     font-size: var(--sm);
     text-align: center;
     text-decoration: none;
@@ -56,7 +60,7 @@ body {
 
 .subtitle {
     font-size: var(--md);
-    color: var(--very-light-pink);
+    color: var(--adhara-blue-ocean);
     font-weight: 300;
     margin-top: 0;
     margin-bottom: 32px;
@@ -64,15 +68,15 @@ body {
 }
 
 .primary-btn {
-    background-color: var(--hospital-green);
+    background-color: var(--adhara-blue-ocean);
     color: var(--white);
     height: 50%;
 }
 
 .secondary-btn {
     background-color: var(--white);
-    color: var(--hospital-green);
-    border: 1px solid var(--hospital-green);
+    color: var(--adhara-blue-ocean);
+    border: 1px solid var(--adhara-blue-ocean);
     height: 47px;
 }
 
@@ -89,10 +93,16 @@ body {
 }
 
 .input {
-    background-color: var(--text-input-field);
+    /* background-color: var(--text-input-field); */
+    background-color: var(--text-input-field-adhara);
     height: 32px;
     padding: 8px;
     margin-bottom: 20px;
+}
+
+::placeholder {
+    color: var(--adhara-blue-night);
+    opacity: 0.3;
 }
 
 .input, .primary-btn, .secondary-btn {
