@@ -3,6 +3,13 @@
     flex-direction: column;
 }
 
+.text-value {
+    margin-bottom: 8px 0 32px 0px;
+    font-weight: bold;
+    font-size: var(--md);
+    color: var(--adhara-blue-sky);
+}
+
 .primary-btn {
     height: 47px;
     margin-bottom: 0;
